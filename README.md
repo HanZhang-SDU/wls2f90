@@ -1,5 +1,5 @@
 # wls2f90
-a program written in Fortran that can transfer Result provided by Mathematica into modern Fortran formmat.
+A program written in Fortran that can transfer Result provided by Mathematica into modern Fortran formmat.
 
 ## For Complile
 Just download the repository, enter its directory and run 
@@ -7,11 +7,11 @@ Just download the repository, enter its directory and run
 provided gfortran compiler is available. If not, edit the Makefile, and replace gfortran with the one you use. after complie, a executable named "wls2f90" will be generated. It may be convienient to create a symbolic link to this executable in your system's PATH.
 
 ## Usage
-transfer single file
+Transfer single file
 
   $ wls2f90 wls.txt fortran.f90
   
-transfer multiple files specified in "wls_file_list.txt", and create a file named "f90_file_list.f90" to be include to your Fortran program
+Transfer multiple files specified in "wls_file_list.txt", and create a file named "f90_file_list.f90" to be include to your Fortran program
 
   $ wls2f90 -m wls_file_list.txt f90_file_list.f90
   
