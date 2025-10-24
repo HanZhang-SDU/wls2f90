@@ -11,11 +11,11 @@ Transfer single file
 
   $ wls2f90 wls.txt fortran.f90
   
-Transfer multiple files specified in "wls_file_list.txt", and create a file named "f90_file_list.f90" to be include to your Fortran program
+Transfer multiple files specified in "WlsFileList.txt", and create a file named "F90FileList.f90" to be include to your Fortran program
 
-  $ wls2f90 -m wls_file_list.txt f90_file_list.f90
+  $ wls2f90 -m WlsFileList.txt F90FileList.f90
   
-Then in your Fortran program, you can just "#include "f90_file_list.f90"
+Then in your Fortran program, you can just "#include "F90FileList.f90"
 
 ## License
 
